@@ -1,20 +1,26 @@
-- headline: ISS Tracker
+- headline: Haushalt mit Plan
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+  appUrl: https://www.haushalt-mit-plan.de
+  codeUrl: https://github.com/gossie/household-server
+  tags:
+    - Java
+    - Spring Boot
+    - JUnit
+    - AssertJ
+    - Angular
+    - TypeScript
+    - Jasmine
+    - Protractor
+    - Bulma
+    - Maven
+    - circleci
+- headline: ISS Tracker
+  content: Eine kleine React Anwendung, die "<a href="https://wheretheiss.at/w/developer" target="_blank">Where the ISS at?</a>" verwendet um die Position der ISS anzuzeigen.
   appUrl: https://gossie.github.io/iss-tracker
   codeUrl: https://github.com/gossie/iss-tracker
   tags:
     - react
     - jest
-- headline: Game of life
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
-  appUrl: https://gossie.github.io/game-of-life
-  codeUrl: https://github.com/gossie/game-of-life
-  tags:
-    - Angular
-    - Redux
-    - Bulma
-    - Jasmine
-    - Protractor
 - headline: Turing machine
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
   appUrl: https://gossie.github.io/turing-machine
@@ -23,3 +29,14 @@
     - Vue.js
     - TypeScript
     - Canvas
+- headline: Game of life
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+  appUrl: https://gossie.github.io/game-of-life
+  codeUrl: https://github.com/gossie/game-of-life
+  tags:
+    - Angular
+    - TypeScript
+    - Redux
+    - Bulma
+    - Jasmine
+    - Protractor
