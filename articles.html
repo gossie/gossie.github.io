@@ -3,5 +3,26 @@ layout: default
 title: Artikel
 ---
 <div class="container">
-	Artikel
+	{% for item in site.data.code %}
+		<div class="card">
+			<div class="card-header">
+				{{ item.headline }}
+			</div>
+			<div class="card-body">
+				<p class="card-text">
+					{{ item.content }}
+				</p>
+				<p>
+					{% for tag in item.tags %}
+						<span class="badge badge-info">{{ tag }}</span>
+					{% endfor %}
+				</p>
+				<footer>
+					<a href="{{ item.appUrl }}" target="_blank" class="btn btn-primary">App</a>
+					<a href="{{ item.codeUrl }}" target="_blank" class="btn btn-secondary">Code</a>
+				</footer>
+			</div>
+		</div>
+    {% endfor %}
 </div>
+

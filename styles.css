@@ -1,0 +1,39 @@
+.nav-item.active {
+	color: #FFFFFF;
+}
+
+
+
+/* Show it is fixed to the top */
+body {
+  min-height: 75rem;
+  padding-top: 3.75rem;
+}
+
+
+
+.container {
+	margin-bottom: 100px;
+}
+
+
+
+.offer-icon {
+	font-size: 100px;
+	text-align: center;
+	width: 100%;
+}
+
+.offer-icon a {
+	color: #212529;
+}
+
+.offer-icon a:hover {
+	color: #212529;
+}
+
+
+
+.card {
+	margin-top: 50px;
+}

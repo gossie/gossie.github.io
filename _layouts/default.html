@@ -33,7 +33,6 @@
 		  }
 		</style>
 		<!-- Custom styles for this template -->
-		<link href="carousel.css" rel="stylesheet" />
 		<link href="styles.css" rel="stylesheet" />
 	</head>
 	<body>
@@ -45,17 +44,17 @@
 				</button>
 				<div class="collapse navbar-collapse" id="navbarCollapse">
 					<ul class="navbar-nav mr-auto">
-						<li class="nav-item {% if page.title == "Home" %}active{% endif %}">
+						<li class="nav-item {% if page.url == "/home.html" %}active{% endif %}">
 							<a class="nav-link" href="home.html">Home</a>
 						</li>
-						<li class="nav-item {% if page.title == "Entwicklung und Beratung" %}active{% endif %}">
+						<li class="nav-item {% if page.url == "/dev.html" %}active{% endif %}">
 							<a class="nav-link" href="dev.html">Entwicklung und Beratung</a>
 						</li>
-						<li class="nav-item {% if page.title == "Coaching" %}active{% endif %}">
+						<li class="nav-item {% if page.url == "/coaching.html" %}active{% endif %}">
 							<a class="nav-link" href="coaching.html">Coaching</a>
 						</li>
-						<li class="nav-item {% if page.title == "Atrikel" %}active{% endif %}">
-							<a class="nav-link" href="articles.html">Artikel</a>
+						<li class="nav-item {% if page.url == "/articles.html" %}active{% endif %}">
+							<a class="nav-link" href="articles.html">Artikel und Codebeispiele</a>
 						</li>
 					</ul>
 				</div>
@@ -65,12 +64,13 @@
 		<main role="main">
 		
 			{{ content }}
-
-			<!-- FOOTER -->
-			<footer class="container">
-				<a href="#">Impressum</a> &middot; <a href="#">Datenschutz</a></p>
-			</footer>
+			
 		</main>
+		
+		<!-- FOOTER -->
+		<footer class="container">
+			<a href="#">Impressum</a> &middot; <a href="#">Datenschutz</a></p>
+		</footer>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
