@@ -24,12 +24,14 @@ body {
     width: 100%;
 }
 
-.offer-icon a {
+.offer-icon a, .offer-icon a:hover {
     color: #212529;
+	text-decoration: none;
 }
 
-.offer-icon a:hover {
+.contact-icon a, .contact-icon a:hover {
     color: #212529;
+	text-decoration: none;
 }
 
 
