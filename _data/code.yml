@@ -19,8 +19,9 @@
   appUrl: https://gossie.github.io/iss-tracker
   codeUrl: https://github.com/gossie/iss-tracker
   tags:
-    - react
+    - React
     - jest
+    - Bulma
 - headline: Turing machine
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
   appUrl: https://gossie.github.io/turing-machine
@@ -29,6 +30,7 @@
     - Vue.js
     - TypeScript
     - Canvas
+    - Bulma
 - headline: Game of life
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
   appUrl: https://gossie.github.io/game-of-life
