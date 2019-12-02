@@ -1,5 +1,5 @@
 .nav-item.active {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 
@@ -13,27 +13,31 @@ body {
 
 
 .container {
-	margin-bottom: 100px;
+    margin-bottom: 100px;
 }
 
 
 
 .offer-icon {
-	font-size: 100px;
-	text-align: center;
-	width: 100%;
+    font-size: 100px;
+    text-align: center;
+    width: 100%;
 }
 
 .offer-icon a {
-	color: #212529;
+    color: #212529;
 }
 
 .offer-icon a:hover {
-	color: #212529;
+    color: #212529;
 }
 
 
 
-.card {
-	margin-top: 50px;
+#article-cards div.card:not(:first-child) {
+    margin-top: 25px;
+}
+
+#code-cards div.card:not(:first-child) {
+    margin-top: 25px;
 }

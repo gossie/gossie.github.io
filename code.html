@@ -1,18 +1,18 @@
 ---
 layout: default
-title: Artikel
+title: Codebeispiele
 ---
 <div class="container">
     <ul class="nav nav-tabs">
         <li class="nav-item">
-            <a class="nav-link active" href="articles.html">Artikel</a>
+            <a class="nav-link" href="articles.html">Artikel</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="code.html">Codebeispiele</a>
+            <a class="nav-link active" href="code.html">Codebeispiele</a>
         </li>
     </ul>
-    <div id="article-cards">
-        {% for item in site.data.articles %}
+    <div id="code-cards">
+        {% for item in site.data.code %}
             <div class="card">
                 <div class="card-header">
                     {{ item.headline }}
@@ -27,7 +27,8 @@ title: Artikel
                         {% endfor %}
                     </p>
                     <footer>
-                        <a href="{{ item.articleUrl }}" target="_blank" class="btn btn-primary">Zum Artikel</a>
+                        <a href="{{ item.appUrl }}" target="_blank" class="btn btn-primary">App</a>
+                        <a href="{{ item.codeUrl }}" target="_blank" class="btn btn-secondary">Code</a>
                     </footer>
                 </div>
             </div>
