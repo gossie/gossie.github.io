@@ -19,8 +19,9 @@
   appUrl: https://gossie.github.io/iss-tracker
   codeUrl: https://github.com/gossie/iss-tracker
   tags:
-    - react
+    - React
     - jest
+    - Bulma
 - headline: Turing machine
   content: Eine Turing-Maschine implementiert in TypeScript. Die Maschine selbst wird auf einem Canvas gerendered. Programmiert wird sie über eine Vue App.
   appUrl: https://gossie.github.io/turing-machine
@@ -29,6 +30,7 @@
     - Vue.js
     - TypeScript
     - Canvas
+    - Bulma
     - Webpack
 - headline: Game of life
   content: Eine Angular Implementierung von Conways Game of Life zum Austesten verschiedenster JavaScript Bibliotheken.  
