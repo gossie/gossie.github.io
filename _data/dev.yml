@@ -10,13 +10,16 @@ types:
       - Java
       - Kotlin
       - Spring Framework (u.a. Spring-Boot, Spring-MVC, Spring-Data), Java EE,Maven
-      - Ruby on RailsFrontendAngular
+      - Ruby on Rails
+  - name: Frontend
+    tags:
+      - Angular
       - Vue.js
       - React.js
       - React Native
       - Bulma
       - Bootstrap
-  - name : Testing
+  - name: Testing
     tags: 
       - JUnit
       - Hamcrest
