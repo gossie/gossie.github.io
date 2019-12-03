@@ -1,18 +1,18 @@
 - headline: Versioning REST APIs with a magnanimous writer
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+  content: 
   articleUrl: https://dev.to/gossie/versioning-rest-apis-with-a-magnanimous-writer-5d60
   tags:
     - API
     - REST
 - headline: Testing nested structures with AssertJ
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+  content: 
   articleUrl: https://dev.to/gossie/testing-nested-structures-with-assertj-33mn
   tags:
     - Java
     - AssertJ
     - Testing
 - headline: Writing readable tests with AssertJ
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+  content: 
   articleUrl: https://dev.to/gossie/writing-readable-test-with-assertj-2po8
   tags:
     - Java

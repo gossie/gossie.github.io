@@ -1,0 +1,19 @@
+possibilities:
+  - iconClass: fas fa-at
+    label: andre.schreck@gmail.com
+    link: mailto:andre.schreck@gmail.com
+  - iconClass: fab fa-xing
+    label: XING
+    link: https://www.xing.com/profile/Andre_Schreck3
+  - iconClass: fab fa-linkedin
+    label: LinkedIn
+    link: https://www.linkedin.com/in/andr%C3%A9-schreck-3aa81aab/
+  - iconClass: fab fa-github
+    label: Code auf GitHub
+    link: https://www.github.com/gossie
+  - iconClass: fab fa-dev
+    label: Artikel auf dev.to
+    link: https://dev.to/gossie
+  - iconClass: fab fa-twitter
+    label: "@gossiemcschreck"
+    link: https://twitter.com/gossiemcschreck

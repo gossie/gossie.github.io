@@ -17,8 +17,8 @@ title: Home
                     <i class="fas fa-code-branch" ></i>
                 </a>
             </div>
-            <h2>Entwicklung und Beratung</h2>
-            <p>Gerne unterstütze ich Sie und Ihr Team beim Entwurf und der Entwicklung Ihres Systems.</p>
+            <h2>{{ site.data.dev.headline }}</h2>
+            <p>{{ site.data.dev.text }}</p>
         </div>
         <div class="col-lg-4">
             <div class="offer-icon">
@@ -26,8 +26,8 @@ title: Home
                     <i class="fas fa-chalkboard-teacher"></i>
                 </a>
             </div>
-            <h2>Coaching</h2>
-            <p>Ihr Team ist motiviert, es fehlt aber ein wenig am Handwerkszeug um testgetrieben Code zu entwickeln, der den SOLID Prinzipien oder CCD entspricht?</p>
+            <h2>{{ site.data.coaching.headline }}</h2>
+            <p>{{ site.data.coaching.text }}</p>
         </div>
         <div class="col-lg-4">
             <div class="offer-icon">
@@ -35,8 +35,8 @@ title: Home
                     <i class="fas fa-newspaper"></i>
                 </a>
             </div>
-            <h2>Artikel und Code</h2>
-            <p>Machen Sie sich ein eigenes Bild von meiner Arbeit.</p>
+            <h2>{{ site.data.auc.headline }}</h2>
+            <p>{{ site.data.auc.text }}</p>
         </div>
     </div>
 
@@ -51,90 +51,22 @@ title: Home
                 </span>
                 <br /-->
                 <table>
+                    {% for possibility in site.data.contact.possibilities %}
                     <tr>
                         <td class="contact-icon">
                             <span>
-                                <a href="mailto:andre.schreck@gmail.com">
-                                    <i class="fas fa-at"></i>
+                                <a href="{{ possibility.link }}">
+                                    <i class="{{ possibility.iconClass }}"></i>
                                 </a>
                             </span>
                         </td>
                         <td class="contact-label">
-                            <a href="mailto:andre.schreck@gmail.com">
-                                andre.schreck@gmail.com
+                            <a href="{{ possibility.link }}">
+                                {{ possibility.label }}
                             </a>
                         </td>
                     </tr>
-                    <tr>
-                        <td class="contact-icon">
-                            <span>
-                                <a href="https://www.xing.com/profile/Andre_Schreck3" target="_blank">
-                                    <i class="fab fa-xing"></i>
-                                </a>
-                            </span>
-                        </td>
-                        <td class="contact-label">
-                            <a href="https://www.xing.com/profile/Andre_Schreck3" target="_blank">
-                                XING
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="contact-icon">
-                            <span>
-                                <a href="https://www.linkedin.com/in/andr%C3%A9-schreck-3aa81aab/" target="_blank">
-                                    <i class="fab fa-linkedin"></i>
-                                </a>
-                            </span>
-                        </td>
-                        <td class="contact-label">
-                            <a href="https://www.linkedin.com/in/andr%C3%A9-schreck-3aa81aab/" target="_blank">
-                                LinkedIn
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="contact-icon">
-                            <span>
-                                <a href="https://www.github.com/gossie" target="_blank">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </span>
-                        </td>
-                        <td class="contact-label">
-                            <a href="https://www.github.com/gossie" target="_blank">
-                                Code auf GitHub
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="contact-icon">
-                            <span>
-                                <a href="https://dev.to/gossie" target="_blank">
-                                    <i class="fab fa-dev"></i>
-                                </a>
-                            </span>
-                        </td>
-                        <td class="contact-label">
-                            <a href="https://dev.to/gossie" target="_blank">
-                                Artikel auf dev.to
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="contact-icon">
-                            <span>
-                                <a href="https://twitter.com/gossiemcschreck" target="_blank">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                            </span>
-                        </td>
-                        <td class="contact-label">
-                            <a href="https://twitter.com/gossiemcschreck" target="_blank">
-                                @gossiemcschreck
-                            </a>
-                        </td>
-                    </tr>
+                    {% endfor %}
                 </table>
             </p>
         </div>

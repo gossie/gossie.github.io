@@ -2,6 +2,20 @@
 layout: default
 title: Entwicklung und Beratung
 ---
-<div class="container">
-    Entwicklung und Beratung
+<div class="container dev">
+    <p>
+        {{ site.data.dev.text }}
+    </p>
+    <ul>
+        {% for type in site.data.dev.types %}
+            <li>
+                {{ type.name }}
+                <ul>
+                    {% for tag in type.tags %}
+                        <li>{{ tag }}</li>
+                    {% endfor %}
+                </ul>
+            </li>
+        {% endfor %}
+    </ul>
 </div>

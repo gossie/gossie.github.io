@@ -16,6 +16,10 @@ body {
     margin-bottom: 100px;
 }
 
+.container.dev, .container.coaching, .container.articles, .container.code {
+    padding-top: 3.75rem;
+}
+
 
 
 .offer-icon {
@@ -33,6 +37,7 @@ body {
 
 .contact-icon {
     width: 20px;
+    text-align: center;
 }
 
 .contact-icon a, .contact-icon a:hover {

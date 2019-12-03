@@ -1,0 +1,58 @@
+headline: Entwicklung und Beratung
+text: Gerne unterstütze ich Sie und Ihr Team beim Entwurf und der Entwicklung Ihres Systems.
+types:
+  - name: Backend
+    tags:
+      - Java
+      - Kotlin
+  - name: Backend
+    tags:
+      - Java
+      - Kotlin
+      - Spring Framework (u.a. Spring-Boot, Spring-MVC, Spring-Data), Java EE,Maven
+      - Ruby on RailsFrontendAngular
+      - Vue.js
+      - React.js
+      - React Native
+      - Bulma
+      - Bootstrap
+  - name : Testing
+    tags: 
+      - JUnit
+      - Hamcrest
+      - AssertJ
+      - Mockito
+      - Spock
+      - Selenium
+      - Cucumber
+      - JMeter
+      - Jasmine,Karma
+      - Protractor
+  - name: Methoden / Prinzipien
+    tags: 
+      - SCRUM
+      - Kanban
+      - XP
+      - CCD
+      - SOLID
+      - TDD
+      - Continuous Integration
+      - Continuous Delivery
+  - name: Tools
+    tags: 
+      - VisualVM
+      - IntelliJ
+      - eclipse
+      - JIRA
+      - Confluence
+      - Bamboo
+      - Bitbucket
+      - GitLab
+      - GitHub
+  - name: Sonstiges
+    tags:
+      - Git
+      - SVN
+      - Docker
+      - REST
+      - CPQ

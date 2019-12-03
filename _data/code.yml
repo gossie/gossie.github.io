@@ -22,15 +22,16 @@
     - react
     - jest
 - headline: Turing machine
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+  content: Eine Turing-Maschine implementiert in TypeScript. Die Maschine selbst wird auf einem Canvas gerendered. Programmiert wird sie über eine Vue App.
   appUrl: https://gossie.github.io/turing-machine
   codeUrl: https://github.com/gossie/turing-machine
   tags:
     - Vue.js
     - TypeScript
     - Canvas
+    - Webpack
 - headline: Game of life
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+  content: Eine Angular Implementierung von Conways Game of Life zum Austesten verschiedenster JavaScript Bibliotheken.  
   appUrl: https://gossie.github.io/game-of-life
   codeUrl: https://github.com/gossie/game-of-life
   tags:
