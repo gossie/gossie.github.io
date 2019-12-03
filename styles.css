@@ -29,7 +29,22 @@ body {
 	text-decoration: none;
 }
 
+
+
+.contact-icon {
+    width: 20px;
+}
+
 .contact-icon a, .contact-icon a:hover {
+    color: #212529;
+	text-decoration: none;
+}
+
+.contact-label {
+    vertical-align: middle;
+}
+
+.contact-label a, .contact-label a:hover {
     color: #212529;
 	text-decoration: none;
 }

@@ -1,5 +1,5 @@
 - headline: Haushalt mit Plan
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+  content: Eine Anwendung zur kollaborativen Haushaltsplanung. 
   appUrl: https://www.haushalt-mit-plan.de
   codeUrl: https://github.com/gossie/household-server
   tags:
