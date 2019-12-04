@@ -41,10 +41,11 @@ types:
       - Continuous Integration
       - Continuous Delivery
   - name: Tools
-    tags: 
-      - VisualVM
+    tags:
       - IntelliJ
       - eclipse
+      - Visual Studio Code
+      - VisualVM
       - JIRA
       - Confluence
       - Bamboo
