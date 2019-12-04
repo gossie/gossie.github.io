@@ -1,5 +1,6 @@
 headline: Entwicklung und Beratung
-text: Gerne unterstütze ich Sie und Ihr Team beim Entwurf und der Entwicklung Ihres Systems.
+shortText: Gerne unterstütze ich Sie und Ihr Team beim Entwurf und der Entwicklung Ihres Systems.
+longText: Gerne unterstütze ich Sie und Ihr Team beim Entwurf und der Entwicklung Ihres Systems.<br />Hier finden Sie eine Übersicht der Technologien, Methoden und Prinzipien mit denen ich bisher Erfahrungen gesammelt habe.
 types:
   - name: Backend
     tags:
