@@ -56,6 +56,12 @@ body {
 
 
 
+#technologies ul {
+    list-style: none;
+}
+
+
+
 #article-cards div.card:not(:first-child) {
     margin-top: 25px;
 }

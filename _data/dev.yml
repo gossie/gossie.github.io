@@ -5,11 +5,9 @@ types:
     tags:
       - Java
       - Kotlin
-  - name: Backend
-    tags:
-      - Java
-      - Kotlin
-      - Spring Framework (u.a. Spring-Boot, Spring-MVC, Spring-Data), Java EE,Maven
+      - Spring Framework (u.a. Spring-Boot, Spring-MVC, Spring-Data)
+      - Java EE
+      - Maven
       - Ruby on Rails
   - name: Frontend
     tags:
