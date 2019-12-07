@@ -20,6 +20,7 @@
     - Protractor
     - Bulma
     - Maven
+    - Docker
     - circleci
 - headline: ISS Tracker
   content: Eine kleine React Anwendung, die "<a href="https://wheretheiss.at/w/developer" target="_blank">Where the ISS at?</a>" verwendet um die Position der ISS anzuzeigen.
