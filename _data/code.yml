@@ -5,6 +5,13 @@
   tags:
     - Java
     - Spring Boot
+    - Spring Webflux
+    - Spring Data
+    - Spring HATEOAS
+    - Spring Security
+    - Spring Cloud Stream
+    - RabbitMQ
+    - Freemarker
     - JUnit
     - AssertJ
     - Angular
