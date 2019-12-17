@@ -15,6 +15,13 @@
   tags:
     - Java
     - Spring Boot
+    - Spring Webflux
+    - Spring Data
+    - Spring HATEOAS
+    - Spring Security
+    - Spring Cloud Stream
+    - RabbitMQ
+    - Freemarker
     - JUnit
     - AssertJ
     - Angular
@@ -23,6 +30,7 @@
     - Protractor
     - Bulma
     - Maven
+    - Docker
     - circleci
 - headline: ISS Tracker
   content: Eine kleine React Anwendung, die "<a href="https://wheretheiss.at/w/developer" target="_blank">Where the ISS at?</a>" verwendet um die Position der ISS anzuzeigen.
