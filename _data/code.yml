@@ -1,3 +1,13 @@
+- headline: array-pipe
+  content: Ein Polyfill für JavaScript Arrays, das eine pipe Methode hinzufügt.
+  codeUrl: https://github.com/gossie/array-pipe
+  tags:
+    - TypeScript
+    - JavaScript
+    - Polyfill
+    - Mutation testing
+    - Jest
+    - Stryker
 - headline: Haushalt mit Plan
   content: Eine Anwendung zur kollaborativen Haushaltsplanung. 
   appUrl: https://www.haushalt-mit-plan.de
@@ -43,3 +53,11 @@
     - Bulma
     - Jasmine
     - Protractor
+- headline: Diese Webseite
+  content:
+  appUrl: https://gossie.github.io
+  codeUrl: https://github.com/gossie/gossie.github.io
+  tags:
+    - Jekyll
+    - HTML
+    - CSS

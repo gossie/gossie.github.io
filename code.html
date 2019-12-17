@@ -30,8 +30,10 @@ title: Codebeispiele
                         {% endfor %}
                     </p>
                     <footer>
-                        <a href="{{ item.appUrl }}" target="_blank" class="btn btn-primary">App</a>
                         <a href="{{ item.codeUrl }}" target="_blank" class="btn btn-secondary">Code</a>
+                        {% if item.appUrl %}
+                        <a href="{{ item.appUrl }}" target="_blank" class="btn btn-primary">App</a>
+                        {% endif}
                     </footer>
                 </div>
             </div>
