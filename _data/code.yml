@@ -33,6 +33,7 @@
     - Protractor
     - Bulma
     - Maven
+    - Heroku
     - Docker
     - circleci
 - headline: ISS Tracker
