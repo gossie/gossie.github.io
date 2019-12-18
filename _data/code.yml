@@ -8,6 +8,9 @@
     - Mutation testing
     - Jest
     - Stryker
+    - GitHub Actions
+    - GitHub Packages
+    - npmjs
 - headline: Haushalt mit Plan
   content: Eine Anwendung zur kollaborativen Haushaltsplanung. 
   appUrl: https://www.haushalt-mit-plan.de
@@ -40,6 +43,7 @@
     - React
     - jest
     - Bulma
+    - Travis CI
 - headline: Turing machine
   content: Eine Turing-Maschine implementiert in TypeScript. Die Maschine selbst wird auf einem Canvas gerendered. Programmiert wird sie über eine Vue App.
   appUrl: https://gossie.github.io/turing-machine
@@ -50,6 +54,7 @@
     - Canvas
     - Bulma
     - Webpack
+    - Travis CI
 - headline: Game of life
   content: Eine Angular Implementierung von Conways Game of Life zum Austesten verschiedenster JavaScript Bibliotheken.  
   appUrl: https://gossie.github.io/game-of-life
@@ -61,6 +66,7 @@
     - Bulma
     - Jasmine
     - Protractor
+    - Travis CI
 - headline: Diese Webseite
   content:
   appUrl: https://gossie.github.io
