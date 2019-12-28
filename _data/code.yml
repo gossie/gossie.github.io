@@ -36,6 +36,17 @@
     - Heroku
     - Docker
     - circleci
+- headline: Blockchain Simulator
+  content: Ein Blockchain Simulator
+  appUrl: https://gossie.github.io/blockchain-simulator
+  codeUrl: https://github.com/gossie/blockchain-simulator
+  tags:
+    - React
+    - TypeScript
+    - RxJS
+    - Bulma
+    - Jest
+    - GitHub Actions
 - headline: ISS Tracker
   content: Eine kleine React Anwendung, die "<a href="https://wheretheiss.at/w/developer" target="_blank">Where the ISS at?</a>" verwendet um die Position der ISS anzuzeigen.
   appUrl: https://gossie.github.io/iss-tracker
