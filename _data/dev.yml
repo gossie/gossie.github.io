@@ -6,7 +6,10 @@ types:
     tags:
       - Java
       - Kotlin
-      - Spring Framework (u.a. Spring-Boot, Spring-MVC, Spring-Data)
+      - Spring Boot
+      - Spring MVC
+      - Spring Data
+      - Spring HATEOAS
       - Java EE
       - Maven
       - Ruby on Rails
