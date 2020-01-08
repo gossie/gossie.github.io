@@ -1,6 +1,6 @@
 possibilities:
   - iconClass: fas fa-at
-    label: contact@andreschreck.de
+    label: kontakt@andreschreck.de
     link: mailto:contact@andreschreck.de
   - iconClass: fab fa-xing
     label: XING
