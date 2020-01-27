@@ -31,7 +31,8 @@ types:
       - Selenium
       - Cucumber
       - JMeter
-      - Jasmine,Karma
+      - Jasmine,
+      - Karma
       - Protractor
   - name: Methoden / Prinzipien
     tags: 
