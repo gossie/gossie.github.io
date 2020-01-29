@@ -54,12 +54,13 @@ types:
       - Confluence
       - Bamboo
       - Bitbucket
-      - GitLab
-      - GitHub
-  - name: Sonstiges
-    tags:
       - Git
       - SVN
+      - GitLab
+      - GitHub
       - Docker
+      - Heroku
+  - name: Sonstiges
+    tags:
       - REST
       - CPQ
