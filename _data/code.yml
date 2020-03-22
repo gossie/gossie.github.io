@@ -65,6 +65,8 @@
     - TypeScript
     - Canvas
     - Bulma
+    - Karma
+    - Jasmine
     - Webpack
     - Travis CI
 - headline: Snake
