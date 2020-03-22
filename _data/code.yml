@@ -67,6 +67,18 @@
     - Bulma
     - Webpack
     - Travis CI
+- headline: Snake
+  content: Eine browser-basierte Implementierung des Spiels Snake.
+  appUrl: https://gossie.github.io/snake
+  codeUrl: https://github.com/gossie/snake
+  tags:
+    - TypeScript
+    - RxJS
+    - Canvas
+    - Karma
+    - Jasmine
+    - Webpack
+    - Travis CI
 - headline: Game of life
   content: Eine Angular Implementierung von Conways Game of Life zum Austesten verschiedenster JavaScript Bibliotheken.  
   appUrl: https://gossie.github.io/game-of-life
