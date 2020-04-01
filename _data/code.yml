@@ -1,3 +1,15 @@
+- headline: Snake
+  content: Eine browser-basierte Implementierung des Spiels Snake.
+  appUrl: https://gossie.github.io/snake
+  codeUrl: https://github.com/gossie/snake
+  tags:
+    - TypeScript
+    - RxJS
+    - Canvas
+    - Karma
+    - Jasmine
+    - Webpack
+    - Travis CI
 - headline: array-pipe
   content: Ein Polyfill für JavaScript Arrays, das eine pipe Methode hinzufügt.
   codeUrl: https://github.com/gossie/array-pipe
@@ -65,18 +77,6 @@
     - TypeScript
     - Canvas
     - Bulma
-    - Karma
-    - Jasmine
-    - Webpack
-    - Travis CI
-- headline: Snake
-  content: Eine browser-basierte Implementierung des Spiels Snake.
-  appUrl: https://gossie.github.io/snake
-  codeUrl: https://github.com/gossie/snake
-  tags:
-    - TypeScript
-    - RxJS
-    - Canvas
     - Karma
     - Jasmine
     - Webpack
