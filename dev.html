@@ -17,11 +17,9 @@ title: Entwicklung und Beratung
                     </h2>
                 </div>
                 <div id="collapse{{ forloop.index }}" class="{% if forloop.index == 1 %}collapse show{% else %}collapse{% endif %}"  aria-labelledby="header{{ forloop.index }}" data-parent="#technologies">
-                    <ul>
-                        {% for tag in type.tags %}
-                            <li><span class="badge badge-info">{{ tag }}</span></li>
-                        {% endfor %}
-                    </ul>
+                    {% for tag in type.tags %}
+                        <span class="badge badge-info">{{ tag }}</span>
+                    {% endfor %}
                 </div>
             </div>
         {% endfor %}
