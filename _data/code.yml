@@ -1,3 +1,19 @@
+- headline: Quiz
+  content: Diese Quiz-Anwendung wurde implementiert, um auch während Corona nicht aufs Pub Quiz verzichten zu müssen.
+  appUrl: https://quiz-master.andreschreck.de
+  codeUrl: https://github.com/gossie/quiz
+  tags:
+    - Kotlin
+    - Spring Boot
+    - Spring Webflux
+    - Spring Data
+    - R2DBC
+    - Spring HATEOAS
+    - Eventsourcing
+    - React
+    - TypeScript
+    - Bulma
+    - Heroku
 - headline: Snake
   content: Eine browser-basierte Implementierung des Spiels Snake.
   appUrl: https://gossie.github.io/snake
