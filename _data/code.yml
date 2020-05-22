@@ -9,10 +9,16 @@
     - Spring Data
     - R2DBC
     - Spring HATEOAS
-    - Eventsourcing
+    - Spring Cloud Contract
+    - JUnit
     - React
     - TypeScript
+    - Jest
     - Bulma
+    - Maven
+    - npm
+    - Eventsourcing
+    - Docker
     - Heroku
 - headline: Snake
   content: Eine browser-basierte Implementierung des Spiels Snake.
