@@ -11,6 +11,8 @@
     - Spring HATEOAS
     - Spring Cloud Contract
     - JUnit
+    - AssertJ
+    - Mockito
     - React
     - TypeScript
     - Jest
