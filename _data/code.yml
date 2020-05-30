@@ -20,6 +20,7 @@
     - Eventsourcing
     - Docker
     - Heroku
+    - AWS
 - headline: Snake
   content: Eine browser-basierte Implementierung des Spiels Snake.
   appUrl: https://gossie.github.io/snake
