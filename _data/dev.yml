@@ -30,6 +30,7 @@ types:
       - Spock
       - Selenium
       - Cucumber
+      - Gatling
       - JMeter
       - Jasmine
       - Karma
