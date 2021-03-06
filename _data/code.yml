@@ -1,3 +1,45 @@
+- headline: Quiz
+  content: Diese Quiz-Anwendung wurde implementiert, um auch während Corona nicht aufs Pub Quiz verzichten zu müssen.
+  appUrl: https://quiz-master.andreschreck.de
+  codeUrl: https://github.com/gossie/quiz
+  tags:
+    - Kotlin
+    - Spring Boot
+    - Spring Webflux
+    - Spring Data
+    - R2DBC
+    - Spring HATEOAS
+    - Spring Cloud Contract
+    - JUnit
+    - AssertJ
+    - Mockito
+    - React
+    - TypeScript
+    - Jest
+    - Bulma
+    - Maven
+    - npm
+    - Eventsourcing
+    - Docker
+    - Heroku
+    - AWS
+- headline: Snake
+  content: Eine browser-basierte Implementierung des Spiels Snake.
+  appUrl: https://gossie.github.io/snake
+  codeUrl: https://github.com/gossie/snake
+  tags:
+    - TypeScript
+    - RxJS
+    - Canvas
+    - Karma
+    - Jasmine
+    - Webpack
+    - Travis CI
+- headline: Huffman Code
+  content: Ein, in Go implementiertes Modul, das Strings mit Hilfe des Huffman-Algorithmus komprimiert.
+  codeUrl: https://github.com/gossie/huffman
+  tags:
+    - Go
 - headline: array-pipe
   content: Ein Polyfill für JavaScript Arrays, das eine pipe Methode hinzufügt.
   codeUrl: https://github.com/gossie/array-pipe
@@ -65,6 +107,8 @@
     - TypeScript
     - Canvas
     - Bulma
+    - Karma
+    - Jasmine
     - Webpack
     - Travis CI
 - headline: Game of life
