@@ -123,11 +123,11 @@
     - Jasmine
     - Protractor
     - Travis CI
-- headline: Diese Webseite
-  content:
-  appUrl: https://gossie.github.io
-  codeUrl: https://github.com/gossie/gossie.github.io
-  tags:
-    - Jekyll
-    - HTML
-    - CSS
+#- headline: Diese Webseite
+#  content:
+#  appUrl: https://gossie.github.io
+#  codeUrl: https://github.com/gossie/gossie.github.io
+#  tags:
+#    - Jekyll
+#    - HTML
+#    - CSS
