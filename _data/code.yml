@@ -41,7 +41,7 @@ examples:
       - Travis CI
   - headline: Huffman Code
     content: Ein, in Go implementiertes Modul, das Strings mit Hilfe des Huffman-Algorithmus komprimiert.
-      codeUrl: https://github.com/gossie/huffman
+    codeUrl: https://github.com/gossie/huffman
     tags:
       - Go
   - headline: array-pipe
