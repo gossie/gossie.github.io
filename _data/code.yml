@@ -1,133 +1,137 @@
-- headline: Quiz
-  content: Diese Quiz-Anwendung wurde implementiert, um auch während Corona nicht aufs Pub Quiz verzichten zu müssen.
-  appUrl: https://quiz-master.andreschreck.de
-  codeUrl: https://github.com/gossie/quiz
-  tags:
-    - Kotlin
-    - Spring Boot
-    - Spring Webflux
-    - Spring Data
-    - R2DBC
-    - Spring HATEOAS
-    - Spring Cloud Contract
-    - JUnit
-    - AssertJ
-    - Mockito
-    - React
-    - TypeScript
-    - Jest
-    - Bulma
-    - Maven
-    - npm
-    - Eventsourcing
-    - Docker
-    - Heroku
-    - AWS
-- headline: Snake
-  content: Eine browser-basierte Implementierung des Spiels Snake.
-  appUrl: https://gossie.github.io/snake
-  codeUrl: https://github.com/gossie/snake
-  tags:
-    - TypeScript
-    - RxJS
-    - Canvas
-    - Karma
-    - Jasmine
-    - Webpack
-    - Travis CI
-- headline: Huffman Code
-  content: Ein, in Go implementiertes Modul, das Strings mit Hilfe des Huffman-Algorithmus komprimiert.
-  codeUrl: https://github.com/gossie/huffman
-  tags:
-    - Go
-- headline: array-pipe
-  content: Ein Polyfill für JavaScript Arrays, das eine pipe Methode hinzufügt.
-  codeUrl: https://github.com/gossie/array-pipe
-  tags:
-    - TypeScript
-    - JavaScript
-    - Polyfill
-    - Mutation testing
-    - Jest
-    - Stryker
-    - GitHub Actions
-    - GitHub Packages
-    - npmjs
-- headline: Haushalt mit Plan
-  content: Eine Anwendung zur kollaborativen Haushaltsplanung. 
-  appUrl: https://www.haushalt-mit-plan.de
-  codeUrl: https://github.com/gossie/household-server
-  tags:
-    - Java
-    - Spring Boot
-    - Spring Webflux
-    - Spring Data
-    - Spring HATEOAS
-    - Spring Security
-    - Spring Cloud Stream
-    - RabbitMQ
-    - Freemarker
-    - JUnit
-    - AssertJ
-    - Angular
-    - TypeScript
-    - Jasmine
-    - Protractor
-    - Bulma
-    - Maven
-    - Heroku
-    - Docker
-    - circleci
-- headline: Blockchain Simulator
-  content: Ein Blockchain Simulator
-  appUrl: https://gossie.github.io/blockchain-simulator
-  codeUrl: https://github.com/gossie/blockchain-simulator
-  tags:
-    - React
-    - TypeScript
-    - RxJS
-    - Bulma
-    - Jest
-    - GitHub Actions
-- headline: ISS Tracker
-  content: Eine kleine React Anwendung, die "<a href="https://wheretheiss.at/w/developer" target="_blank">Where the ISS at?</a>" verwendet um die Position der ISS anzuzeigen.
-  appUrl: https://gossie.github.io/iss-tracker
-  codeUrl: https://github.com/gossie/iss-tracker
-  tags:
-    - React
-    - jest
-    - Bulma
-    - Travis CI
-- headline: Turing machine
-  content: Eine Turing-Maschine implementiert in TypeScript. Die Maschine selbst wird auf einem Canvas gerendered. Programmiert wird sie über eine Vue App.
-  appUrl: https://gossie.github.io/turing-machine
-  codeUrl: https://github.com/gossie/turing-machine
-  tags:
-    - Vue.js
-    - TypeScript
-    - Canvas
-    - Bulma
-    - Karma
-    - Jasmine
-    - Webpack
-    - Travis CI
-- headline: Game of life
-  content: Eine Angular Implementierung von Conways Game of Life zum Austesten verschiedenster JavaScript Bibliotheken.  
-  appUrl: https://gossie.github.io/game-of-life
-  codeUrl: https://github.com/gossie/game-of-life
-  tags:
-    - Angular
-    - TypeScript
-    - Redux
-    - Bulma
-    - Jasmine
-    - Protractor
-    - Travis CI
-#- headline: Diese Webseite
-#  content:
-#  appUrl: https://gossie.github.io
-#  codeUrl: https://github.com/gossie/gossie.github.io
-#  tags:
-#    - Jekyll
-#    - HTML
-#    - CSS
+headline: Codebeispiele
+shortText: Machen Sie sich ein eigenes Bild von meiner Arbeit.
+longText: Machen Sie sich ein eigenes Bild von meiner Arbeit.
+examples:
+  - headline: Quiz
+    content: Diese Quiz-Anwendung wurde implementiert, um auch während Corona nicht aufs Pub Quiz verzichten zu müssen.
+    appUrl: https://quiz-master.andreschreck.de
+    codeUrl: https://github.com/gossie/quiz
+    tags:
+      - Kotlin
+      - Spring Boot
+      - Spring Webflux
+      - Spring Data
+      - R2DBC
+      - Spring HATEOAS
+      - Spring Cloud Contract
+      - JUnit
+      - AssertJ
+      - Mockito
+      - React
+      - TypeScript
+      - Jest
+      - Bulma
+      - Maven
+      - npm
+      - Eventsourcing
+      - Docker
+      - Heroku
+      - AWS
+  - headline: Snake
+    content: Eine browser-basierte Implementierung des Spiels Snake.
+    appUrl: https://gossie.github.io/snake
+    codeUrl: https://github.com/gossie/snake
+    tags:
+      - TypeScript
+      - RxJS
+      - Canvas
+      - Karma
+      - Jasmine
+      - Webpack
+      - Travis CI
+  - headline: Huffman Code
+    content: Ein, in Go implementiertes Modul, das Strings mit Hilfe des Huffman-Algorithmus komprimiert.
+      codeUrl: https://github.com/gossie/huffman
+    tags:
+      - Go
+  - headline: array-pipe
+    content: Ein Polyfill für JavaScript Arrays, das eine pipe Methode hinzufügt.
+    codeUrl: https://github.com/gossie/array-pipe
+    tags:
+      - TypeScript
+      - JavaScript
+      - Polyfill
+      - Mutation testing
+      - Jest
+      - Stryker
+      - GitHub Actions
+      - GitHub Packages
+      - npmjs
+  - headline: Haushalt mit Plan
+    content: Eine Anwendung zur kollaborativen Haushaltsplanung. 
+    appUrl: https://www.haushalt-mit-plan.de
+    codeUrl: https://github.com/gossie/household-server
+    tags:
+      - Java
+      - Spring Boot
+      - Spring Webflux
+      - Spring Data
+      - Spring HATEOAS
+      - Spring Security
+      - Spring Cloud Stream
+      - RabbitMQ
+      - Freemarker
+      - JUnit
+      - AssertJ
+      - Angular
+      - TypeScript
+      - Jasmine
+      - Protractor
+      - Bulma
+      - Maven
+      - Heroku
+      - Docker
+      - circleci
+  - headline: Blockchain Simulator
+    content: Ein Blockchain Simulator
+    appUrl: https://gossie.github.io/blockchain-simulator
+    codeUrl: https://github.com/gossie/blockchain-simulator
+    tags:
+      - React
+      - TypeScript
+      - RxJS
+      - Bulma
+      - Jest
+      - GitHub Actions
+  - headline: ISS Tracker
+    content: Eine kleine React Anwendung, die "<a href="https://wheretheiss.at/w/developer" target="_blank">Where the ISS at?</a>" verwendet um die Position der ISS anzuzeigen.
+    appUrl: https://gossie.github.io/iss-tracker
+    codeUrl: https://github.com/gossie/iss-tracker
+    tags:
+      - React
+      - jest
+      - Bulma
+      - Travis CI
+  - headline: Turing machine
+    content: Eine Turing-Maschine implementiert in TypeScript. Die Maschine selbst wird auf einem Canvas gerendered. Programmiert wird sie über eine Vue App.
+    appUrl: https://gossie.github.io/turing-machine
+    codeUrl: https://github.com/gossie/turing-machine
+    tags:
+      - Vue.js
+      - TypeScript
+      - Canvas
+      - Bulma
+      - Karma
+      - Jasmine
+      - Webpack
+      - Travis CI
+  - headline: Game of life
+    content: Eine Angular Implementierung von Conways Game of Life zum Austesten verschiedenster JavaScript Bibliotheken.  
+    appUrl: https://gossie.github.io/game-of-life
+    codeUrl: https://github.com/gossie/game-of-life
+    tags:
+      - Angular
+      - TypeScript
+      - Redux
+      - Bulma
+      - Jasmine
+      - Protractor
+      - Travis CI
+  #- headline: Diese Webseite
+  #  content:
+  #  appUrl: https://gossie.github.io
+  #  codeUrl: https://github.com/gossie/gossie.github.io
+  #  tags:
+  #    - Jekyll
+  #    - HTML
+  #    - CSS
