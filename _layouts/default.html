@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="theme-color" content="#000000" />
         <meta name="description" content="André Schreck" />
-        <meta name="keywords" content="Freelancer, Softwarearchitektur, Seoftwareentwicklung, Java, Spring, Coaching, CCD, TDD, SOLID" />
+        <meta name="keywords" content="Freelancer, Softwarearchitektur, Softwareentwicklung, Java, Spring, Coaching, CCD, TDD, SOLID, {{ page.keywords }}" />
         <meta name="author" content="André Schreck" />
         
         <link rel="icon" href="img/logo.png" type="image/png" />
@@ -55,6 +55,9 @@
                         </li>
                         <li class="nav-item {% if page.url == '/code.html' %}active{% endif %}">
                             <a class="nav-link" href="code.html">Codebeispiele</a>
+                        </li>
+                        <li class="nav-item {% if page.url == '/blog.html' %}active{% endif %}">
+                            <a class="nav-link" href="blog.html">Blog</a>
                         </li>
                     </ul>
                 </div>

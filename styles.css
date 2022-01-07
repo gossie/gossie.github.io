@@ -16,7 +16,7 @@ body {
     margin-bottom: 100px;
 }
 
-.container.dev, .container.coaching, .container.articles, .container.code {
+.container.dev, .container.coaching, .container.articles, .container.code, .container.blog {
     padding-top: 1.75rem;
 }
 
@@ -66,6 +66,10 @@ body {
     margin-top: 25px;
 }
 
-#code-cards div.card:not(:first-child) {
+div.card:not(:first-child) {
     margin-top: 25px;
+}
+
+.card .card-header {
+    font-weight: bold;
 }

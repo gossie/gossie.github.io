@@ -1,0 +1,20 @@
+longText: Das ist mein Blog
+articles:
+  - headline: Writing readable tests with AssertJ
+    teaser: <a href="http://joel-costigliola.github.io/assertj" target="_blank">AssertJ</a> is a library that provides "fluent assertions for java". The fluent interface of the assertions allows developers to write very readable tests. In this article I will try to show how this can be accomplished for your own domain objects.
+    tags:
+      - Java
+      - Testing
+      - assertj
+  - headline: Testing nested structures with AssertJ
+    teaser: In a previous post I described why I like writing tests with <a href="http://joel-costigliola.github.io/assertj" target="_blank">AssertJ</a>. In this post I would like to describe a nice pattern that helps testing nested structures with <a href="http://joel-costigliola.github.io/assertj" target="_blank">AssertJ</a>.
+    tags:
+      - Java
+      - Testing
+      - assertj
+  - headline: Versioning REST APIs with a magnanimous writer
+    teaser: When maintaining a public API that should be used by an unknown number of clients, downward compatibility is a crucial topic. Different clients use different versions of the API and usually the operator of the API is interested in having as many users as possible.
+    tags:
+      - API
+      - REST
+      - Versioning
