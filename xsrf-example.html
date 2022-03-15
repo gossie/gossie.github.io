@@ -8,6 +8,7 @@
             function buy() {
                 fetch("https://nf-shop.herokuapp.com/api/orders", {
                     method: 'POST',
+                    credentials: "same-origin",
                     headers: {
                         'Content-Type': 'application/json'
                     },
