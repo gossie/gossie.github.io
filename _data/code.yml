@@ -27,6 +27,31 @@ examples:
       - Docker
       - Heroku
       - AWS
+  - headline: Haushalt mit Plan
+    content: Eine Anwendung zur kollaborativen Haushaltsplanung. 
+    appUrl: https://www.haushalt-mit-plan.de
+    codeUrl: https://github.com/gossie/household-server
+    tags:
+      - Java
+      - Spring Boot
+      - Spring Webflux
+      - Spring Data
+      - Spring HATEOAS
+      - Spring Security
+      - Spring Cloud Stream
+      - RabbitMQ
+      - Freemarker
+      - JUnit
+      - AssertJ
+      - Angular
+      - TypeScript
+      - Jasmine
+      - Protractor
+      - Bulma
+      - Maven
+      - Heroku
+      - Docker
+      - circleci
   - headline: Snake
     content: Eine browser-basierte Implementierung des Spiels Snake.
     appUrl: https://gossie.github.io/snake
@@ -57,31 +82,6 @@ examples:
       - GitHub Actions
       - GitHub Packages
       - npmjs
-  - headline: Haushalt mit Plan
-    content: Eine Anwendung zur kollaborativen Haushaltsplanung. 
-    appUrl: https://www.haushalt-mit-plan.de
-    codeUrl: https://github.com/gossie/household-server
-    tags:
-      - Java
-      - Spring Boot
-      - Spring Webflux
-      - Spring Data
-      - Spring HATEOAS
-      - Spring Security
-      - Spring Cloud Stream
-      - RabbitMQ
-      - Freemarker
-      - JUnit
-      - AssertJ
-      - Angular
-      - TypeScript
-      - Jasmine
-      - Protractor
-      - Bulma
-      - Maven
-      - Heroku
-      - Docker
-      - circleci
   - headline: Blockchain Simulator
     content: Ein Blockchain Simulator
     appUrl: https://gossie.github.io/blockchain-simulator
