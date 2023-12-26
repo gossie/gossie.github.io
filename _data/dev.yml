@@ -16,7 +16,6 @@ types:
   - name: Frontend
     tags:
       - Angular
-      - Vue.js
       - React.js
       - React Native
       - Bulma
