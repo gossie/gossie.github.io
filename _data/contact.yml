@@ -14,6 +14,3 @@ possibilities:
   - iconClass: fab fa-dev
     label: Artikel auf dev.to
     link: https://dev.to/gossie
-  - iconClass: fab fa-twitter
-    label: "@gossiemcschreck"
-    link: https://twitter.com/gossiemcschreck

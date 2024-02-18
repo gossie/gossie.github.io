@@ -12,11 +12,10 @@ types:
       - Spring HATEOAS
       - Java EE
       - Maven
-      - Ruby on Rails
+      - Go
   - name: Frontend
     tags:
       - Angular
-      - Vue.js
       - React.js
       - React Native
       - Bulma
