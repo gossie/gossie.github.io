@@ -2,109 +2,69 @@
 layout: default
 title: Home
 ---
-<div class="jumbotron jumbotron-fluid">
-    <div class="container">
-        <h1 class="display-4">André Schreck</h1>
-        <p class="lead">Ich bin ein Software-Architekt, der keine Lust hat im Elfenbeinturm zu sitzen. Mein Schwerpunkt liegt auf Java und Spring. In den letzten Jahren habe ich aber auch immer mehr mit Frontend-Technologien wie Angular oder React gearbeitet.</p>
+<div class="banner">
+    <h1>André Schreck</h1>
+    <p >Ich bin ein Software-Architekt, der keine Lust hat im Elfenbeinturm zu sitzen. Mein Schwerpunkt liegt auf Java und Spring. In den letzten Jahren habe ich aber auch immer mehr mit Frontend-Technologien wie Angular oder React gearbeitet.</p>
+</div>
+
+<div class="topic-row">
+    <div class="col">
+        <div class="icon">
+            <a href="dev.html">
+                <i class="fas fa-code-branch" ></i>
+            </a>
+        </div>
+        <h2>{{ site.data.dev.headline }}</h2>
+        <p>{{ site.data.dev.shortText }}</p>
+    </div>
+    <div class="col">
+        <div class="icon">
+            <a href="coaching.html">
+                <i class="fas fa-chalkboard-teacher"></i>
+            </a>
+        </div>
+        <h2>{{ site.data.coaching.headline }}</h2>
+        <p>{{ site.data.coaching.shortText }}</p>
+    </div>
+    <div class="col">
+        <div class="icon">
+            <a href="code.html">
+                <i class="fas fa-newspaper"></i>
+            </a>
+        </div>
+        <h2>{{ site.data.code.headline }}</h2>
+        <p>{{ site.data.code.shortText }}</p>
     </div>
 </div>
 
-<div class="container">
-    <div class="row">
-        <div class="col-lg-4">
-            <div class="offer-icon">
-                <a href="dev.html">
-                    <i class="fas fa-code-branch" ></i>
-                </a>
-            </div>
-            <h2>{{ site.data.dev.headline }}</h2>
-            <p>{{ site.data.dev.shortText }}</p>
-        </div>
-        <div class="col-lg-4">
-            <div class="offer-icon">
-                <a href="coaching.html">
-                    <i class="fas fa-chalkboard-teacher"></i>
-                </a>
-            </div>
-            <h2>{{ site.data.coaching.headline }}</h2>
-            <p>{{ site.data.coaching.shortText }}</p>
-        </div>
-        <div class="col-lg-4">
-            <div class="offer-icon">
-                <a href="code.html">
-                    <i class="fas fa-newspaper"></i>
-                </a>
-            </div>
-            <h2>{{ site.data.code.headline }}</h2>
-            <p>{{ site.data.code.shortText }}</p>
-        </div>
-    </div>
+<hr />
 
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-        <div class="col-md-7">
-            <h2 class="featurette-heading">Erreichbarkeit und Profile</h2>
-            <p class="lead">
-                <!-- span class="contact-icon">
-                    <i class="fas fa-phone"></i> +49 (0)176 62074587
-                </span>
-                <br /-->
-                <table>
-                    {% for possibility in site.data.contact.possibilities %}
-                    <tr>
-                        <td class="contact-icon">
-                            <span>
-                                <a href="{{ possibility.link }}" target="_blank">
-                                    <i class="{{ possibility.iconClass }}"></i>
-                                </a>
-                            </span>
-                        </td>
-                        <td class="contact-label">
+<div class="profile-row">
+    <div class="col">
+        <h2>Erreichbarkeit und Profile</h2>
+        <p class="lead">
+            <table>
+                {% for possibility in site.data.contact.possibilities %}
+                <tr>
+                    <td class="contact-icon">
+                        <span>
                             <a href="{{ possibility.link }}" target="_blank">
-                                {{ possibility.label }}
+                                <i class="{{ possibility.iconClass }}"></i>
                             </a>
-                        </td>
-                    </tr>
-                    {% endfor %}
-                </table>
-            </p>
-        </div>
-        <div class="col-md-5">
-            <!--
-                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-            -->
-            <img src="/assets/img/picture.jpg" alt="Profilbild" />
-        </div>
+                        </span>
+                    </td>
+                    <td class="contact-label">
+                        <a href="{{ possibility.link }}" target="_blank">
+                            {{ possibility.label }}
+                        </a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </table>
+        </p>
     </div>
-
-    <hr class="featurette-divider">
-
-    <!--
-    <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5 order-md-1">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-        </div>
+    <div class="col">
+        <img src="/assets/img/picture.jpg" alt="Profilbild" />
     </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-        <div class="col-md-7">
-            <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-        </div>
-    </div>
-
-    <hr class="featurette-divider">
-    -->
-
-    <!-- /END THE FEATURETTES -->
 </div>
+

@@ -3,36 +3,33 @@ layout: default
 title: Codebeispiele
 keywords: Code
 ---
-<div class="container code">
-    <p>
-        {{ site.data.code.longText }}
-    </p>
-    <div id="code-cards">
-        {% for item in site.data.code.examples %}
-            <div class="card">
-                <div class="card-header">
-                    {{ item.headline }}
-                </div>
-                <div class="card-body">
-                    <p class="card-text">
-                        {{ item.content }}
-                    </p>
-                    <p>
-                        {% for tag in item.tags %}
-                            <span class="badge badge-info">{{ tag }}</span>
-                        {% endfor %}
-                    </p>
-                    <footer>
-                        {% if item.codeUrl %}
-                            <a href="{{ item.codeUrl }}" target="_blank" class="btn btn-secondary">Code</a>
-                        {% endif %}
-                        {% if item.appUrl %}
-                            <a href="{{ item.appUrl }}" target="_blank" class="btn btn-primary">App</a>
-                        {% endif %}
-                    </footer>
+<p>
+    {{ site.data.code.longText }}
+</p>
+<div id="code-cards">
+    {% for item in site.data.code.examples %}
+        <div class="card">
+            <div class="card-header">
+                {{ item.headline }}
+            </div>
+            <div class="card-body">
+                <p class="card-text">
+                    {{ item.content }}
+                </p>
+                <div class="tags">
+                    {% for tag in item.tags %}
+                        <span class="tag">{{ tag }}</span>
+                    {% endfor %}
                 </div>
             </div>
-        {% endfor %}
-    </div>
+            <div class="card-footer">
+                {% if item.codeUrl %}
+                    <a href="{{ item.codeUrl }}" target="_blank" class="btn btn-secondary">Code</a>
+                {% endif %}
+                {% if item.appUrl %}
+                    <a href="{{ item.appUrl }}" target="_blank" class="btn btn-primary">App</a>
+                {% endif %}
+            </div>
+        </div>
+    {% endfor %}
 </div>
-

@@ -7,24 +7,18 @@ keywords: Beratung
     <p>
         {{ site.data.dev.longText }}
     </p>
-    <div id="technologies" class="accordion">
-        {% for type in site.data.dev.types %}
-            <div class="card">
-                <div id="header{{ forloop.index }}" class="card-header">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse{{ forloop.index }}" aria-expanded="{% if forloop.index == 1 %}true{% else %}false{% endif %}" aria-controls="collapse{{ forloop.index }}">
-                            {{ type.name }}
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapse{{ forloop.index }}" class="{% if forloop.index == 1 %}collapse show{% else %}collapse{% endif %}"  aria-labelledby="header{{ forloop.index }}" data-parent="#technologies">
-                    <div style="margin: 10px;">
-                        {% for tag in type.tags %}
-                            <span class="badge badge-info">{{ tag }}</span>
-                        {% endfor %}
-                    </div>
+    {% for type in site.data.dev.types %}
+        <div class="card">
+            <div class="card-header">
+                {{ type.name }}
+            </div>
+            <div  class="card-body">
+                <div class="tags">
+                    {% for tag in type.tags %}
+                        <span class="tag">{{ tag }}</span>
+                    {% endfor %}
                 </div>
             </div>
-        {% endfor %}
-    </div>
+        </div>
+    {% endfor %}
 </div>

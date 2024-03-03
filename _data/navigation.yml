@@ -1,0 +1,10 @@
+- link: /
+  label: Home
+- link: /dev.html
+  label: Entwicklung und Beratung
+- link: /coaching.html
+  label: Coaching
+- link: /code.html
+  label: Codebeispiele
+#- link: /blog.html
+#  label: Blog
